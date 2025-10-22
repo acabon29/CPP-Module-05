@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror -g -std=c++98 -I./includes -I./libs -Ofast
 SRC_DIR = ./srcs
 OBJS_DIR = ./objs
 OUTPUT_DIR ?= .
-NAME ?= LotOfForm
+NAME ?= CoffeeMaking
 
 ###############    Files    ###############
 
@@ -16,6 +16,7 @@ SRC_GENERAL =	main \
 				PresidentialPardonForm \
 				RobotomyRequestForm \
 				ShrubberyCreationForm \
+				Intern \
 
 SRC	= $(addprefix $(SRC_DIR)/, $(addsuffix .cpp,	$(SRC_GENERAL) \
 ))
